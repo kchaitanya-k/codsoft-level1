@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #000000, #434343);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+   padding: 20px;
+   background : gray;
+   width: 30%;
+   height: 90vh;
+   border-radius: 10px;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container .display{
+    width: 100%;
+    height:15vh;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s ease;
+}
+.container .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 5px;;
+}
+.container .actions .btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.1s ease;
+    width: 20%;
+    height: 10vh;
+    box-shadow: 0 4px 8px rgba(10, 10, 10, 0.3);
+}
+.container .actions .btn:hover {
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.3);
+    background-color: #1a1a1a;
+}
+.container .actions .btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.container .actions #clear{
+    background-color: #f44336;
+    width: 20%;
+}
+
+
+.container .actions #equals{
+    background-color: #008CBA;
+    width: 47%;
+}
+.container .actions #op{
+    background-color: rgb(234, 176, 67);
+}
