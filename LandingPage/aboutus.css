@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    align-items: center;
+    background-size: cover;
+    color: white;
+}
+h3{
+    font-size: 30px;
+    color: goldenrod;
+    padding: 20px 0;
+    padding: 50px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
+    color: whitesmoke;
+    line-height: 1.5;
+    padding: 15px 0;
+    margin-left: 30px;
+    inline-size: inherit;
+}

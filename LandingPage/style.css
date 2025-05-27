@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    align-items: center;
+    background-size: cover;
+    color: white;   
+    }
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: WHITE;
+    padding-right: 20px;
+    
+}
+.links li{
+   padding: 10px 20px;
+}
+.links li:hover{
+   background-color: darkgoldenrod;
+   border-radius: 2px;
+   transition: 0.3s;
+}
+.logo{
+   padding: 20px 20px;
+   font-weight: bold;
+   color: white;
+   font-size: 20px;
+}
+.maintext{
+    padding: 150px 50px;
+    background-image: url(pictures/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.maintext h1{
+    font-size: 70px;
+    color: #333;
+}
+.maintext p,p1{
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+    padding: 15px 0;
+}
+.maintext h2{
+    font-size: 30px;
+    color: #333;
+    padding: 20px 0;
+}
+.btn{
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+    margin-left: 500px;
+}
+.btn:hover{
+    background-color: darkgoldenrod;
+    color: white;
+    transition: 0.3s;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
